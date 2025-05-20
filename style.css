@@ -1,0 +1,177 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0f0c29;
+  color: #ffffff;
+}
+
+/* HEADER */
+.main-header {
+  position: relative;
+  text-align: center;
+  padding-bottom: 0;
+  overflow: hidden;
+  min-height: 500px;
+  background-color: #0f0c29;
+}
+
+/* Imagem de fundo do header */
+.header-bg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  filter: brightness(50%);
+  opacity: 1;
+  position: relative;
+  z-index: 0;
+}
+
+/* Container do perfil */
+.perfil-container {
+  position: relative;
+  z-index: 1;
+  margin-top: -70px;
+}
+
+.perfil-img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  border: 4px solid #0f0c29;
+  object-fit: cover;
+  background-color: #1e1e1e;
+}
+
+.perfil-container h1 {
+  margin-top: 15px;
+  font-size: 26px;
+}
+
+.perfil-container p {
+  color: #aaa;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/* MENU */
+.menu {
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: transparent;
+  padding: 15px 0;
+  z-index: 2;
+  position: relative;
+}
+
+.menu a {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #7f7fa8;
+}
+
+/* Principais */
+main {
+  max-width: 900px;
+  margin: 20px auto 60px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+/* Estilo dos títulos */
+main h2 {
+  font-size: 28px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #f8f8f8;
+}
+
+/* Texto geral */
+main p,
+main li,
+main label,
+main input,
+main textarea {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+/* Listas */
+main ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+main ul li {
+  margin-bottom: 15px;
+}
+
+/* Links do portfólio */
+.portfolio a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.portfolio a:hover {
+  color: #7f7fa8;
+  text-decoration: underline;
+}
+
+/* Formulario */
+form input,
+form textarea {
+  width: 50%;
+  max-width: 500px;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: #ffffff; 
+  color: #000000; 
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+  color: #666; 
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-weight: bold;
+  color: #000000;
+  cursor: not-allowed;
+}
+
+/* Footer */
+.footer {
+  background-color: transparent;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  margin-top: 10px;
+  border: none;
+}
+
+.footer p {
+  margin: 0;
+  color: #666;
+}
