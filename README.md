@@ -3,7 +3,7 @@
 Este projeto é um site pessoal desenvolvido 100% com HTML, CSS e JavaScript puros, sem uso de bibliotecas, frameworks
 ou construtores visuais.
 
-## ✨ Funcionalidades
+##   Funcionalidades
 
 - Página "Sobre mim"
 - Formação acadêmica e cursos
@@ -17,7 +17,8 @@ ou construtores visuais.
 - CSS3  
 - JavaScript (Vanilla JS)
 
-## 📁 Estrutura
+##   Estrutura
+
 .
 ├── index.html           # Sobre mim  
 ├── formacao.html        # Formação  
@@ -37,6 +38,6 @@ ou construtores visuais.
 
 Projeto desenvolvido com foco em domínio de tecnologias puras, sem dependências externas.
 
-## Autor
+##   Autor
 
 [Matheus Santos](https://github.com/matcarneros)
