@@ -11,7 +11,7 @@ ou construtores visuais.
 - Formulário de contato com validação em JavaScript
 - Design responsivo e leve
 
-## 🛠 Tecnologias
+##   Tecnologias
 
 - HTML5  
 - CSS3  
